@@ -1,13 +1,13 @@
 import 'dart:collection';
 
 void main(){
-  final queque = Queue<String>();
+  final stack = Queue<String>();
 
-  queque.addLast('Noor');
-  queque.addLast('Habibah');
-  queque.addLast('Bibah');
+  stack.addLast('Noor');
+  stack.addLast('Habibah');
+  stack.addLast('Bibah');
 
-  print(queque.removeLast());
-  print(queque.removeLast());
-  print(queque.removeLast());
+  print(stack.removeLast());
+  print(stack.removeLast());
+  print(stack.removeLast());
 }
